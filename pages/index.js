@@ -69,6 +69,12 @@ const Home = () => {
     setIsGenerating(false);
   };
 
+  const sleep = (ms) => {
+    return new Promise((resolve) => {
+      setTimeout(resolve, ms);
+    });
+  };
+
   // Add useEffect here
   useEffect(() => {
     const runRetry = async () => {
