@@ -4,7 +4,7 @@ import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
 
 const Home = () => {
-  const maxRetries = 20;
+  const maxRetries = 15;
   const [input, setInput] = useState('');
   const [img, setImg] = useState('');
   const [retry, setRetry]  = useState(0);
